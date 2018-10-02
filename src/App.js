@@ -6,7 +6,6 @@ import { ClientDetails, Menu } from './components';
 
 import './App.css';
 
-
 class App extends Component {
 
 	render() {

@@ -49,7 +49,7 @@ class Menu extends Component {
 
 				for (let key in allInfo) {
 					if (key !== 'avatar') {
-						result = allInfo[key].toLowerCase().indexOf(searchBy) === 0; // поиск по первым буквам слова
+						result = allInfo[key].toLowerCase().indexOf(searchBy) === 0; // search by first letters
 						if (result) break;
 					}
 				}

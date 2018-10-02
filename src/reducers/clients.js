@@ -1,9 +1,3 @@
-/*
- *
- * Agent reducer
- *
- */
-
 import {
 	GET_CLIENTS_SUCCESS,
 	SELECT_CLIENT_INDEX,
