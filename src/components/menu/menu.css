@@ -1,0 +1,10 @@
+.no-search-results {
+    padding: 0 20px 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.ui.fluid.vertical.tabular {
+    height: 100%;
+}

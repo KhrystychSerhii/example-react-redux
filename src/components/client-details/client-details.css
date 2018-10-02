@@ -1,0 +1,11 @@
+.client-image {
+    width: 128px;
+    height: 128px;
+}
+
+.value {
+    margin-bottom: 10px;
+}
+.value .property {
+    font-weight: 700;
+}

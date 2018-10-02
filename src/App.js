@@ -1,28 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Container, Header, Grid, Input, Segment } from 'semantic-ui-react';
+
+// components
+import { ClientDetails, Menu } from './components';
+
 import './App.css';
 
+
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+
+	render() {
+		return (
+            <Container>
+                <Header as='h3' textAlign="center" attached="top">
+                    ReactJs Redux example
+                </Header>
+                <Grid>
+                    <Grid.Column width={5}>
+                        <Menu />
+                    </Grid.Column>
+                    <Grid.Column stretched width={11}>
+                        <ClientDetails />
+                    </Grid.Column>
+                </Grid>
+            </Container>
+		);
+	}
 }
 
 export default App;
